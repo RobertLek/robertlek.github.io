@@ -1,0 +1,151 @@
+html {
+    height: 100%;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header styling */
+
+#header {
+    background-image: linear-gradient(to right, #D3EAFD, #6cbcfe);
+}
+
+#header h1 {
+    color: #334455;
+    padding: 15px;
+    margin: 0;
+}
+
+#header h2 {
+    color: #111111;
+    padding: 0;
+    margin: 0 15px;
+}
+
+.avatar-wrapper {
+    margin: 15px;
+}
+
+#avatar-image {
+    border: 3px solid #334455;
+    border-radius: 100%;
+}
+
+#header-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+#top-menu-bar {
+    text-align: center;
+    background-color: #334455;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+#top-menu-bar li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#top-menu-bar a {
+    display: inline-block;
+    color: #D3EAFD;
+    text-decoration: none;
+    padding: 5px 15px;
+    margin: 2px 0;
+    text-transform: uppercase;
+}
+
+#top-menu-bar a:hover {
+    color: #334455;
+    background: #D3EAFD;
+}
+
+/* Content styling */
+
+#content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+#side-menu {
+    flex: 1;
+    margin: 10px;
+}
+
+#first-side-section {
+    background-image: linear-gradient(to left, white, #D3EAFD);
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#first-side-section button {
+    background-color: #334455;
+    color: #D3EAFD;
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #334455;
+}
+
+#first-side-section button:hover {
+    background-color: #D3EAFD;
+    color: #334455;
+}
+
+#second-side-section {
+    background-image: linear-gradient(to left, white, #D3EAFD);
+    color: #334455;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+
+#main {
+    flex: 2;
+    margin: 10px 10px 10px 0;
+    background-image: linear-gradient(to right, white, #D3EAFD);
+    border-radius: 25px;
+}
+
+#main-home-tab {
+    margin: 15px;
+}
+
+/* Footer styling */
+
+#footer {
+    text-align: center;
+    background-color: #334455;
+}
+
+#footer li {
+    display: inline-block;
+}
+
+#footer li a {
+    color: #D3EAFD;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 8px;
+}
+
+#footer li a:hover {
+    color: #334455;
+    background-color: #D3EAFD;
+}
