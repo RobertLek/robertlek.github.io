@@ -103,9 +103,15 @@ p {
     border: 1px solid #334455;
 }
 
+#first-side-section h4 {
+    margin: 0;
+    padding: 0;
+}
+
 #first-side-section button:hover {
-    background-color: #D3EAFD;
-    color: #334455;
+    background-color: #334455;
+    color: #FFF;
+    cursor: pointer;
 }
 
 #second-side-section {
@@ -125,6 +131,11 @@ p {
 
 #main-home-tab {
     margin: 15px;
+}
+
+#languages-image {
+    max-width: 70%;
+    max-height: 70%;
 }
 
 /* Footer styling */
