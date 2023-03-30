@@ -1,121 +1,100 @@
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Robert Leca's CV</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
-      rel="stylesheet"
-    />
-  </head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Robert Leca's CV</title>
+        <script src="https://kit.fontawesome.com/b12b743f17.js" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="/favicon/icon.ico" />
+        <link rel="stylesheet" href="css/reset-style.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    </head>
 
-  <body>
-    <header id="header">
-      <div id="header-wrapper">
-        <div class="avatar-wrapper">
-          <img
-            src="images/avatar.jpg"
-            id="avatar-image"
-            alt="Selfie"
-            height="100"
-          />
-        </div>
-        <div>
-          <h1>Robert Leca</h1>
-          <h2>Software Developer</h2>
-        </div>
-      </div>
+    <body>
+        <header id="header">
+            <div id="header-wrapper">
+                <div id="avatar-wrapper">
+                    <img src="/images/avatar.jpg" id="avatar-image" height="100" alt="Avatar" />
+                </div>
+                <div>
+                    <h1>Robert Andrei Leca</h1>
+                    <h2>Software Developer</h2>
+                </div>
+                <div id="language-select-wrapper">
+                    <button type="button" class="language-button">
+                        <img src="/images/us-language.png" class="language-button-image" width="16" height="16" title="English" />
+                    </button>
+                    <button type="button" class="language-button">
+                        <img src="/images/ro-language.png" class="language-button-image" width="16" height="16" title="Romanian" />
+                    </button>
+                </div>
+            </div>
 
-      <ul id="top-menu-bar">
-        <li>
-          <a href="#">Home</a>
-        </li>
-        <li>
-          <a href="#" onclick="showSkills()">Skills</a>
-        </li>
-        <li>
-          <a href="#">Projects</a>
-        </li>
-        <li>
-          <a href="#">Languages</a>
-        </li>
-      </ul>
-    </header>
+            <ul id="top-menu-bar">
+                <li>
+                    <button type="button"><i class="fa-solid fa-house margin-right"></i>Home</button>
+                </li>
+                <li>
+                    <button type="button"><i class="fa-solid fa-gear margin-right"></i>Skills</button>
+                </li>
+                <li>
+                    <button type="button"><i class="fa-solid fa-briefcase margin-right"></i>Projects</button>
+                </li>
+                <li>
+                    <button type="button"><i class="fa-solid fa-globe margin-right"></i>Languages</button>
+                </li>
+            </ul>
+        </header>
 
-    <section id="content">
-      <div id="side-menu">
-        <section id="first-side-section">
-          <h4>Contact me:</h4>
-          <br />
-
-          <form action="" method="get">
-            <label for="userEmail">Email:&nbsp;</label>
-            <input
-              type="email"
-              id="userEmail"
-              name="email"
-              placeholder="example@me.com"
-              required
-            />
-            <br />
-            <br />
-            <label for="userName">Name:</label>
-            <input
-              type="name"
-              id="userName"
-              name="name"
-              placeholder="John Doe"
-              required
-            />
-            <br />
-            <br />
-            <button type="submit">Contact me</button>
-          </form>
+        <section id="container">
+            <div id="side-menu">
+                <div id="upper-side-menu">
+                    <h4><i class="fa-solid fa-id-card margin-right"></i>Contact me:</h4>
+                    <form action="/index.html" method="get">
+                        <label for="user-email">Your email address:</label>
+                        <input type="email" id="user-email" name="user-email" placeholder="example@me.com" required />
+                        <label for="user-name">Your full name:</label>
+                        <input type="text" id="user-name" name="user-name" placeholder="John Doe" required />
+                        <button type="submit"><i class="fa-solid fa-paper-plane margin-right"></i>Contact me</button>
+                    </form>
+                </div>
+                <div id="lower-side-menu">
+                    <h4><i class="fa-solid fa-circle-user margin-right"></i>Personal details:</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-user-tie margin-right-sm"></i>Current age: <b>21</b></li>
+                        <li><i class="fa-solid fa-location-dot margin-right-sm"></i>Location: <b>Romania, Sibiu</b></li>
+                        <li><i class="fa-solid fa-phone margin-right-sm"></i>Phone number: <b>0747577171</b></li>
+                        <li><i class="fa-solid fa-envelope margin-right-sm"></i>Email address: <b>lecarobertandrei@gmail.com</b></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main-content">
+                <div class="display-content" id="tab-home">
+                    Hello, world! This is my portfolio and the place where you can track my progress in software development.
+                </div>
+                <div class="display-content" id="tab-skills">
+                    Below are my current skills in different programming languages and tehnologies.
+                </div>
+                <div class="display-content" id="tab-projects">
+                    Below you can find my personal projects.
+                </div>
+                <div class="display-content" id="tab-languages">
+                    These are the languages I know so far.
+                </div>
+            </div>
         </section>
-        <section id="second-side-section">
-          <p>I have experience with the following programming languages:</p>
-          <ul>
-            <li>C#</li>
-            <li>Java</li>
-            <li>C++</li>
-            <li>PHP</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Matlab</li>
-          </ul>
-        </section>
-      </div>
-      <div id="main">
-        <div class="page" id="home">
-          <p>
-            Hello, world! This is my portfolio and here's the place where you
-            can track my progress in software development.
-          </p>
-          <img src="images/languages.png" id="languages-image" />
-        </div>
-        <div class="page" id="skills">Skills</div>
-        <div class="page" id="projects">Projects</div>
-        <div class="page" id="languages">Languages</div>
-      </div>
-    </section>
 
-    <footer id="footer">
-      <ul>
-        <li>
-          <a href="https://ro.linkedin.com" target="_blank">LinkedIn</a>
-        </li>
-        <li>
-          <a href="https://www.youtube.com" target="_blank">YouTube</a>
-        </li>
-        <li>
-          <a href="https://github.com/RobertLek" target="_blank">GitHub</a>
-        </li>
-      </ul>
-    </footer>
-    <script src="index.js"></script>
-  </body>
+        <footer id="footer">
+            <ul>
+                <li>
+                    <a href="https://github.com/RobertLek" target="_blank"><i class="fa-brands fa-github margin-right"></i>GitHub</a>
+                </li>
+            </ul>
+        </footer>
+    </body>
+
+    <script src="/index.js"></script>
 </html>

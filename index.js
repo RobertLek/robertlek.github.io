@@ -1,4 +1,4 @@
-var activePage = "home";
+var activePage = "tab-home";
 
 var homePage = document.getElementById(activePage);
 homePage.style.display = "block";
