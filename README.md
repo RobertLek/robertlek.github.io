@@ -1,2 +1,7 @@
-# robertlek.github.io
-This is my personal website and my CV.
+# Robert Leca's CV
+
+My personal CV made with `HTML`, `CSS` and `JS`.
+
+## Live Preview
+
+- [robertlek.github.io](https://robertlek.github.io)
