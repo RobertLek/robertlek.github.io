@@ -48,37 +48,3 @@ function showLanguagesPage() {
     languagesButton.classList.add("active-button");
     activeButton = languagesButton;
 }
-
-function translateToEnglish() {
-    document.getElementById("text-function-name").innerText = "Software Developer";
-    document.getElementById("text-contact-me-label").innerText = "Contact me:";
-    document.getElementById("text-user-email-label").innerText = "Your email address:";
-    document.getElementById("text-user-name-label").innerText = "Your full name:";
-    document.getElementById("text-contact-me-button").innerText = "Contact me!";
-    document.getElementById("text-personal-details-label").innerText = "Personal details:";
-    document.getElementById("text-current-age").innerText = "Current age:";
-    document.getElementById("text-location").innerText = "Location:";
-    document.getElementById("text-phone-number").innerText = "Phone number:";
-    document.getElementById("text-email-address").innerText = "Email address:";
-    document.getElementById("text-home-button").innerText = "Home";
-    document.getElementById("text-skills-button").innerText = "Skills";
-    document.getElementById("text-projects-button").innerText = "Projects";
-    document.getElementById("text-languages-button").innerText = "Languages";
-}
-
-function translateToRomanian() {
-    document.getElementById("text-function-name").innerText = "Dezvoltator Software";
-    document.getElementById("text-contact-me-label").innerText = "Contactează-mă:";
-    document.getElementById("text-user-email-label").innerText = "Adresa ta de email:";
-    document.getElementById("text-user-name-label").innerText = "Numele tău întreg:";
-    document.getElementById("text-contact-me-button").innerText = "Contactează-mă!";
-    document.getElementById("text-personal-details-label").innerText = "Detalii personale:";
-    document.getElementById("text-current-age").innerText = "Vârsta curentă:";
-    document.getElementById("text-location").innerText = "Locație:";
-    document.getElementById("text-phone-number").innerText = "Număr de telefon:";
-    document.getElementById("text-email-address").innerText = "Adresă de email:";
-    document.getElementById("text-home-button").innerText = "Acasă";
-    document.getElementById("text-skills-button").innerText = "Skill-uri";
-    document.getElementById("text-projects-button").innerText = "Proiecte";
-    document.getElementById("text-languages-button").innerText = "Limbi";
-}
