@@ -11,12 +11,16 @@ body {
     flex-direction: column;
 }
 
-.margin-right {
-    margin-right: 10px;
+.margin-right-lg {
+    margin-right: 8px;
+}
+
+.margin-right-md {
+    margin-right: 4px;
 }
 
 .margin-right-sm {
-    margin-right: 8px;
+    margin-right: 2px;
 }
 
 /* Header styling */
@@ -100,6 +104,11 @@ body {
 #top-menu-bar button:hover {
     background-color: #D3EAFD;
     color: #334455;
+}
+
+#top-menu-bar .active-button {
+    background-color: #D3EAFD;
+    color: #334455;   
 }
 
 /* Container styling */

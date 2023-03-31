@@ -21,13 +21,13 @@
                 </div>
                 <div>
                     <h1>Robert Andrei Leca</h1>
-                    <h2>Software Developer</h2>
+                    <h2 id="text-function-name">Software Developer</h2>
                 </div>
                 <div id="language-select-wrapper">
-                    <button type="button" class="language-button">
+                    <button type="button" class="language-button" onclick="translateToEnglish()">
                         <img src="/images/us-language.png" class="language-button-image" width="16" height="16" title="English" />
                     </button>
-                    <button type="button" class="language-button">
+                    <button type="button" class="language-button" onclick="translateToRomanian()">
                         <img src="/images/ro-language.png" class="language-button-image" width="16" height="16" title="Romanian" />
                     </button>
                 </div>
@@ -35,16 +35,28 @@
 
             <ul id="top-menu-bar">
                 <li>
-                    <button type="button"><i class="fa-solid fa-house margin-right"></i>Home</button>
+                    <button type="button" id="button-home" onclick="showHomePage()">
+                        <i class="fa-solid fa-house margin-right-md"></i>
+                        <span id="text-home-button">Home</span>
+                    </button>
                 </li>
                 <li>
-                    <button type="button"><i class="fa-solid fa-gear margin-right"></i>Skills</button>
+                    <button type="button" id="button-skills" onclick="showSkillsPage()">
+                        <i class="fa-solid fa-gear margin-right-md"></i>
+                        <span id="text-skills-button">Skills</span>
+                    </button>
                 </li>
                 <li>
-                    <button type="button"><i class="fa-solid fa-briefcase margin-right"></i>Projects</button>
+                    <button type="button" id="button-projects" onclick="showProjectsPage()">
+                        <i class="fa-solid fa-briefcase margin-right-md"></i>
+                        <span id="text-projects-button">Projects</span>
+                    </button>
                 </li>
                 <li>
-                    <button type="button"><i class="fa-solid fa-globe margin-right"></i>Languages</button>
+                    <button type="button" id="button-languages" onclick="showLanguagesPage()">
+                        <i class="fa-solid fa-globe margin-right-md"></i>
+                        <span id="text-languages-button">Languages</span>
+                    </button>
                 </li>
             </ul>
         </header>
@@ -52,22 +64,43 @@
         <section id="container">
             <div id="side-menu">
                 <div id="upper-side-menu">
-                    <h4><i class="fa-solid fa-id-card margin-right"></i>Contact me:</h4>
+                    <h4>
+                        <i class="fa-solid fa-id-card margin-right-md"></i>
+                        <span id="text-contact-me-label">Contact me:</span>
+                    </h4>
                     <form action="/index.html" method="get">
-                        <label for="user-email">Your email address:</label>
+                        <label for="user-email" id="text-user-email-label">Your email address:</label>
                         <input type="email" id="user-email" name="user-email" placeholder="example@me.com" required />
-                        <label for="user-name">Your full name:</label>
+                        <label for="user-name" id="text-user-name-label">Your full name:</label>
                         <input type="text" id="user-name" name="user-name" placeholder="John Doe" required />
-                        <button type="submit"><i class="fa-solid fa-paper-plane margin-right"></i>Contact me</button>
+                        <button type="submit">
+                            <i class="fa-solid fa-paper-plane margin-right-md"></i>
+                            <span id="text-contact-me-button">Contact me!</span>
+                        </button>
                     </form>
                 </div>
                 <div id="lower-side-menu">
-                    <h4><i class="fa-solid fa-circle-user margin-right"></i>Personal details:</h4>
+                    <h4>
+                        <i class="fa-solid fa-id-card-clip margin-right-md"></i>
+                        <span id="text-personal-details-label">Personal details:</span>
+                    </h4>
                     <ul>
-                        <li><i class="fa-solid fa-user-tie margin-right-sm"></i>Current age: <b>21</b></li>
-                        <li><i class="fa-solid fa-location-dot margin-right-sm"></i>Location: <b>Romania, Sibiu</b></li>
-                        <li><i class="fa-solid fa-phone margin-right-sm"></i>Phone number: <b>0747577171</b></li>
-                        <li><i class="fa-solid fa-envelope margin-right-sm"></i>Email address: <b>lecarobertandrei@gmail.com</b></li>
+                        <li>
+                            <i class="fa-solid fa-circle-user margin-right-md"></i>
+                            <span id="text-current-age">Current age:</span> <b>21</b>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-globe margin-right-md"></i>
+                            <span id="text-location">Location:</span> <b>Romania, Sibiu</b>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-phone margin-right-md"></i>
+                            <span id="text-phone-number">Phone number:</span> <b>0747577171</b>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope margin-right-md"></i>
+                            <span id="text-email-address">Email address:</span> <b>lecarobertandrei@gmail.com</b>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -90,11 +123,11 @@
         <footer id="footer">
             <ul>
                 <li>
-                    <a href="https://github.com/RobertLek" target="_blank"><i class="fa-brands fa-github margin-right"></i>GitHub</a>
+                    <a href="https://github.com/RobertLek" target="_blank"><i class="fa-brands fa-github margin-right-lg"></i>GitHub</a>
                 </li>
             </ul>
         </footer>
     </body>
 
-    <script src="/index.js"></script>
+    <script src="/js/script.js"></script>
 </html>
