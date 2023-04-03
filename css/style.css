@@ -238,6 +238,26 @@ body {
     margin-bottom: 5px;
 }
 
+#tab-languages table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+#tab-languages thead {
+    background-color: #334455;
+    color: #FFFFFF;
+}
+
+#tab-languages td {
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+    text-align: center;
+}
+
+#tab-languages tbody tr:nth-child(even) {
+    background-color: #EEEEEE;
+}
+
 /* Footer styling */
 
 #footer {

@@ -41,6 +41,42 @@ function translateToEnglish() {
             spend some precious time with my family or practice a healthy activity such as a gym workout.
         </p>
         `;
+
+    document.getElementById("tab-languages").innerHTML =
+        `
+        <h2>
+            <i class="fa-solid fa-globe margin-right-md"></i>
+            <span>Languages</span>
+        </h2>
+        <p>My known languages are displayed below in the table:</p>
+        <br />
+        <table>
+            <thead>
+                <tr>
+                    <td>Language</td>
+                    <td>Level</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Romanian</td>
+                    <td>Native language</td>
+                </tr>
+                <tr>
+                    <td>English</td>
+                    <td>Professional proficiency</td>
+                </tr>
+                <tr>
+                    <td>French</td>
+                    <td>Elementary proficiency</td>
+                </tr>
+                <tr>
+                    <td>German</td>
+                    <td>Elementary proficiency</td>
+                </tr>
+            </tbody>
+        </table>
+        `;
 }
 
 function translateToRomanian() {
@@ -87,6 +123,42 @@ function translateToRomanian() {
             natură, să petrec timp prețios cu familia mea sau să desfășor o activitate sănătoasă precum un antrenament la
             sală.
         </p>
+        `;
+
+        document.getElementById("tab-languages").innerHTML =
+        `
+        <h2>
+            <i class="fa-solid fa-globe margin-right-md"></i>
+            <span>Limbi:</span>
+        </h2>
+        <p>Limbile cunoscute de mine sunt afișate în tabelul de mai jos:</p>
+        <br />
+        <table>
+            <thead>
+                <tr>
+                    <td>Limbă</td>
+                    <td>Nivel</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Română</td>
+                    <td>Limbă nativă</td>
+                </tr>
+                <tr>
+                    <td>Engleză</td>
+                    <td>Competență profesională</td>
+                </tr>
+                <tr>
+                    <td>Franceză</td>
+                    <td>Competență elementară</td>
+                </tr>
+                <tr>
+                    <td>Germană</td>
+                    <td>Competență elementară</td>
+                </tr>
+            </tbody>
+        </table>
         `;
 }
 
