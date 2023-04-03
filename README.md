@@ -1,6 +1,6 @@
-# Robert Leca's CV
+# Robert Leca's Personal Website
 
-My personal CV made with `HTML`, `CSS` and `JS`.
+My personal website made with `HTML`, `CSS` and `JS`.
 
 ## Live Preview
 
