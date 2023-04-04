@@ -16,7 +16,7 @@ function translateToEnglish() {
     document.getElementById("text-languages-button").innerText = "Languages";
 
     document.getElementById("tab-home").innerHTML =
-        `
+    `
         <h2>
             <i class="fa-solid fa-house margin-right-md"></i>
             <span>Home</span>
@@ -40,28 +40,31 @@ function translateToEnglish() {
             Outside of the programming world, I like to play video games, watch a good movie, go outside in the nature,
             spend some precious time with my family or practice a healthy activity such as a gym workout.
         </p>
-        `;
+    `;
 
     document.getElementById("tab-skills").innerHTML =
-        `
+    `
         <h2>
             <i class="fa-solid fa-gear margin-right-md"></i>
             <span>Skills</span>
         </h2>
         Below are my current skills in different programming languages and tehnologies.
-        `;
+        <br />
+        <br />
+        <ul></ul>
+    `;
 
     document.getElementById("tab-projects").innerHTML =
-        `
+    `
         <h2>
             <i class="fa-solid fa-briefcase margin-right-md"></i>
             <span>Projects</span>
         </h2>
         Below you can find my personal projects.
-        `;
+    `;
 
     document.getElementById("tab-languages").innerHTML =
-        `
+    `
         <h2>
             <i class="fa-solid fa-globe margin-right-md"></i>
             <span>Languages</span>
@@ -94,7 +97,9 @@ function translateToEnglish() {
                 </tr>
             </tbody>
         </table>
-        `;
+    `;
+
+    showSkills();
 }
 
 function translateToRomanian() {
@@ -115,7 +120,7 @@ function translateToRomanian() {
     document.getElementById("text-languages-button").innerText = "Limbi";
 
     document.getElementById("tab-home").innerHTML =
-        `
+    `
         <h2>
             <i class="fa-solid fa-house margin-right-md"></i>
             <span>Acasă</span>
@@ -141,28 +146,31 @@ function translateToRomanian() {
             natură, să petrec timp prețios cu familia mea sau să desfășor o activitate sănătoasă precum un antrenament la
             sală.
         </p>
-        `;
+    `;
 
-        document.getElementById("tab-skills").innerHTML =
-        `
+    document.getElementById("tab-skills").innerHTML =
+    `
         <h2>
             <i class="fa-solid fa-gear margin-right-md"></i>
             <span>Skill-uri</span>
         </h2>
         Mai jos sunt afișate skill-urile mele în diferite limbaje de programare și în diferite tehnologii.
-        `;
+        <br />
+        <br />
+        <ul></ul>  
+    `;
 
     document.getElementById("tab-projects").innerHTML =
-        `
+    `
         <h2>
             <i class="fa-solid fa-briefcase margin-right-md"></i>
             <span>Proiecte</span>
         </h2>
         Mai jos, poți regăsi proiectele realizate de mine.
-        `;
+    `;
 
-        document.getElementById("tab-languages").innerHTML =
-        `
+    document.getElementById("tab-languages").innerHTML =
+    `
         <h2>
             <i class="fa-solid fa-globe margin-right-md"></i>
             <span>Limbi:</span>
@@ -195,7 +203,9 @@ function translateToRomanian() {
                 </tr>
             </tbody>
         </table>
-        `;
+    `;
+
+    showSkills();
 }
 
 translateToEnglish();

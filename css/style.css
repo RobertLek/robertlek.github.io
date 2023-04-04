@@ -238,6 +238,16 @@ body {
     margin-bottom: 5px;
 }
 
+#tab-skills ul li {
+    list-style-type: square;
+    margin-left: 15px;
+    color: #334455;
+}
+
+.endorcements {
+    color: gray;
+}
+
 #tab-languages table {
     width: 50%;
     border-collapse: collapse;
