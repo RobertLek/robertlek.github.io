@@ -38,25 +38,25 @@
 
             <ul id="top-menu-bar">
                 <li>
-                    <button type="button" id="button-home" onclick="showHomePage()">
+                    <button type="button" id="tab-home-button" data-tab="tab-home">
                         <i class="fa-solid fa-house margin-right-md"></i>
                         <span id="text-home-button">Home</span>
                     </button>
                 </li>
                 <li>
-                    <button type="button" id="button-skills" onclick="showSkillsPage()">
+                    <button type="button" id="tab-skills-button" data-tab="tab-skills">
                         <i class="fa-solid fa-gear margin-right-md"></i>
                         <span id="text-skills-button">Skills</span>
                     </button>
                 </li>
                 <li>
-                    <button type="button" id="button-projects" onclick="showProjectsPage()">
+                    <button type="button" id="tab-projects-button" data-tab="tab-projects">
                         <i class="fa-solid fa-briefcase margin-right-md"></i>
                         <span id="text-projects-button">Projects</span>
                     </button>
                 </li>
                 <li>
-                    <button type="button" id="button-languages" onclick="showLanguagesPage()">
+                    <button type="button" id="tab-languages-button" data-tab="tab-languages">
                         <i class="fa-solid fa-globe margin-right-md"></i>
                         <span id="text-languages-button">Languages</span>
                     </button>
@@ -109,20 +109,8 @@
             </div>
             <div id="main-content">
                 <div class="display-content" id="tab-home"></div>
-                <div class="display-content" id="tab-skills">
-                    <h2>
-                        <i class="fa-solid fa-gear margin-right-md"></i>
-                        <span>Skills</span>
-                    </h2>
-                    Below are my current skills in different programming languages and tehnologies.
-                </div>
-                <div class="display-content" id="tab-projects">
-                    <h2>
-                        <i class="fa-solid fa-briefcase margin-right-md"></i>
-                        <span>Projects</span>
-                    </h2>
-                    Below you can find my personal projects.
-                </div>
+                <div class="display-content" id="tab-skills"></div>
+                <div class="display-content" id="tab-projects"></div>
                 <div class="display-content" id="tab-languages"></div>
             </div>
         </section>

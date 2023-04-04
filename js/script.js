@@ -1,50 +1,35 @@
-var homePage = document.getElementById("tab-home");
-var skillsPage = document.getElementById("tab-skills");
-var projectsPage = document.getElementById("tab-projects");
-var languagesPage = document.getElementById("tab-languages");
+var activePage = "tab-home";
+showPage(activePage);
 
-var homeButton = document.getElementById("button-home");
-var skillsButton = document.getElementById("button-skills");
-var projectsButton = document.getElementById("button-projects");
-var languagesButton = document.getElementById("button-languages");
+document.querySelector("#top-menu-bar").addEventListener("click", function (e) {
+    if (e.target.closest("button").matches("button")) {
+        var id = e.target.closest("button").dataset.tab;
+        displayPage(id);
+    }
+});
 
-var activePage = homePage;
-var activeButton = homeButton;
-activePage.style.display = "block";
-activeButton.classList.add("active-button");
-
-function showHomePage() {
-    activePage.style.display = "none";
-    activeButton.classList.remove("active-button");
-    homePage.style.display = "block";
-    activePage = homePage;
-    homeButton.classList.add("active-button");
-    activeButton = homeButton;
+function showPage(id) {
+    var selectedPage = document.getElementById(id);
+    var selectedButton = document.getElementById(id + "-button");
+    selectedPage.style.display = "block";
+    selectedButton.classList.add("active-button");
 }
 
-function showSkillsPage() {
-    activePage.style.display = "none";
-    activeButton.classList.remove("active-button");
-    skillsPage.style.display = "block";
-    activePage = skillsPage;
-    skillsButton.classList.add("active-button");
-    activeButton = skillsButton;
+function hidePage(id) {
+    var selectedPage = document.getElementById(id);
+    var selectedButton = document.getElementById(id + "-button");
+    selectedPage.style.display = "none";
+    selectedButton.classList.remove("active-button");
 }
 
-function showProjectsPage() {
-    activePage.style.display = "none";
-    activeButton.classList.remove("active-button");
-    projectsPage.style.display = "block";
-    activePage = projectsPage;
-    projectsButton.classList.add("active-button");
-    activeButton = projectsButton;
+function hideAllPages() {
+    var pages = document.querySelectorAll("#main-content .display-content");
+    pages.forEach(function (page) {
+        hidePage(page.id);
+    });
 }
 
-function showLanguagesPage() {
-    activePage.style.display = "none";
-    activeButton.classList.remove("active-button");
-    languagesPage.style.display = "block";
-    activePage = languagesPage;
-    languagesButton.classList.add("active-button");
-    activeButton = languagesButton;
+function displayPage(id) {
+    hideAllPages();
+    showPage(id);
 }

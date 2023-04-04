@@ -42,6 +42,24 @@ function translateToEnglish() {
         </p>
         `;
 
+    document.getElementById("tab-skills").innerHTML =
+        `
+        <h2>
+            <i class="fa-solid fa-gear margin-right-md"></i>
+            <span>Skills</span>
+        </h2>
+        Below are my current skills in different programming languages and tehnologies.
+        `;
+
+    document.getElementById("tab-projects").innerHTML =
+        `
+        <h2>
+            <i class="fa-solid fa-briefcase margin-right-md"></i>
+            <span>Projects</span>
+        </h2>
+        Below you can find my personal projects.
+        `;
+
     document.getElementById("tab-languages").innerHTML =
         `
         <h2>
@@ -123,6 +141,24 @@ function translateToRomanian() {
             natură, să petrec timp prețios cu familia mea sau să desfășor o activitate sănătoasă precum un antrenament la
             sală.
         </p>
+        `;
+
+        document.getElementById("tab-skills").innerHTML =
+        `
+        <h2>
+            <i class="fa-solid fa-gear margin-right-md"></i>
+            <span>Skill-uri</span>
+        </h2>
+        Mai jos sunt afișate skill-urile mele în diferite limbaje de programare și în diferite tehnologii.
+        `;
+
+    document.getElementById("tab-projects").innerHTML =
+        `
+        <h2>
+            <i class="fa-solid fa-briefcase margin-right-md"></i>
+            <span>Proiecte</span>
+        </h2>
+        Mai jos, poți regăsi proiectele realizate de mine.
         `;
 
         document.getElementById("tab-languages").innerHTML =
