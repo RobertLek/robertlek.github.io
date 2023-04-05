@@ -16,8 +16,16 @@ function displayContent() {
         });
 }
 
+function $(selector) {
+    return document.querySelector(selector)
+}
+
+function setText(selector, text) {
+    $(selector).innerText = text;
+}
+
 function translateToEnglish() {
-    document.getElementById("text-function-name").innerText = "Software Developer";
+    setText("#text-function-name", "Software Developer");
     document.getElementById("text-quote").innerText = `# "Why do Java programmers have to wear glasses? Because they don't C#."`;
     document.getElementById("text-contact-me-label").innerText = "Contact me:";
     document.getElementById("text-user-email-label").innerText = "Your email address:";
