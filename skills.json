@@ -1,14 +1,38 @@
 [
     {
         "name": "HTML",
-        "endorcements": 5
+        "endorcements": 14
     },
     {
         "name": "CSS",
-        "endorcements": 20
+        "endorcements": 10
     },
     {
         "name": "JS",
+        "endorcements": 3
+    },
+    {
+        "name": "C#",
         "endorcements": 15
+    },
+    {
+        "name": "Python",
+        "endorcements": 1
+    },
+    {
+        "name": "Java",
+        "endorcements": 5
+    },
+    {
+        "name": "PHP",
+        "endorcements": 7
+    },
+    {
+        "name": "C++",
+        "endorcements": 6
+    },
+    {
+        "name": "MATLAB",
+        "endorcements": 4
     }
 ]

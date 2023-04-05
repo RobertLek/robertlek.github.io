@@ -244,8 +244,16 @@ body {
     color: #334455;
 }
 
+li.important {
+    font-weight: bold;
+}
+
+li.important .endorcements {
+    color: rgb(41, 167, 41);
+}
+
 .endorcements {
-    color: gray;
+    color: green;
 }
 
 .technology {

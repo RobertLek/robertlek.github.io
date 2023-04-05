@@ -39,7 +39,10 @@ function showSkills(skills) {
         return b.endorcements - a.endorcements;
     });
     var html = skills.map(function (skill) {
-        return `<li>${skill.name} - <span class="endorcements">${skill.endorcements}</span></li>`;
+        var cls = skill.endorcements > 4 ? "important" : "";
+        return `<li class="${cls}">
+                    ${skill.name} ${skill.endorcements < 2 ? "" : `- <span class="endorcements">${skill.endorcements}</span>
+                </li>`}`;
     });
 
     var container = document.querySelector("#tab-skills ul");
