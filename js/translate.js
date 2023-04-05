@@ -65,10 +65,25 @@ function translateToEnglish() {
             <i class="fa-solid fa-briefcase margin-right-md"></i>
             <span>Projects</span>
         </h2>
-        Below you can find my personal projects.
+        <p>Below you can find my personal projects.</p>
         <br />
-        <br />
-        <ul></ul>
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-file-signature margin-right-md"></i>Project's name
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-code margin-right-md"></i>Technologies used
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-shield margin-right-md"></i>Repository type
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
     `;
 
     document.getElementById("tab-languages").innerHTML =
@@ -174,10 +189,25 @@ function translateToRomanian() {
             <i class="fa-solid fa-briefcase margin-right-md"></i>
             <span>Proiecte</span>
         </h2>
-        Mai jos, poți regăsi proiectele realizate de mine.
+        <p>Mai jos, poți regăsi proiectele realizate de mine.</p>
         <br />
-        <br />
-        <ul></ul>
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <i class="fa-solid fa-file-signature margin-right-md"></i>Numele proiectului
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-code margin-right-md"></i>Tehnologii utilizate
+                    </td>
+                    <td>
+                        <i class="fa-solid fa-shield margin-right-md"></i>Tip Repository
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
     `;
 
     document.getElementById("tab-languages").innerHTML =

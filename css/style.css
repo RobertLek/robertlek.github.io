@@ -248,20 +248,50 @@ body {
     color: gray;
 }
 
-#tab-projects ul li {
-    list-style-type: square;
-    margin-left: 15px;
+.technology {
+    color: gray;
 }
 
-#tab-projects ul li a {
+.repository-type {
+    color: #d60000;
+}
+
+#tab-projects table {
+    width: 100%;
+    border-collapse: collapse;
+    max-height: 20%;
+}
+
+#tab-projects thead {
+    background-color: #334455;
+    color: #FFFFFF;
+}
+
+#tab-projects thead td {
+    border: 1px solid #CCCCCC;
+    padding: 8px;
+    text-align: center;
+}
+
+#tab-projects tbody td {
+    border: 1px solid #CCCCCC;
+    padding: 4px;
+    text-align: center;
+}
+
+#tab-projects a {
     color: #334455;
     font-weight: bold;
     text-decoration: none;
-    cursor: pointer;
 }
 
-.technology {
-    color: gray;
+#tab-projects a:hover {
+    text-decoration: underline;
+    color: #693092;
+}
+
+#tab-projects tbody tr:nth-child(even) {
+    background-color: #EEEEEE;
 }
 
 #tab-languages table {
