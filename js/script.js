@@ -35,6 +35,9 @@ function displayPage(id) {
 }
 
 function showSkills(skills) {
+    skills.sort(function (a, b) {
+        return b.endorcements - a.endorcements;
+    });
     var html = skills.map(function (skill) {
         return `<li>${skill.name} - <span class="endorcements">${skill.endorcements}</span></li>`;
     });
@@ -43,106 +46,7 @@ function showSkills(skills) {
     container.innerHTML = html.join("");
 }
 
-function showProjects() {
-    var projects = [
-        {
-            name: "Adaptive Thresholding",
-            technology: "C#",
-            link: "https://github.com/robertlek/adaptive-thresholding",
-            type: "Private"
-        },
-        {
-            name: "Atom Music Player",
-            technology: "Java, XML",
-            link: "https://github.com/robertlek/atom-music-player",
-            type: "Private"
-        },
-        {
-            name: "Bezier Curves Figure",
-            technology: "MATLAB",
-            link: "https://github.com/robertlek/bezier-curves-figure",
-            type: "Private"
-        },
-        {
-            name: "Console Auto Park",
-            technology: "C++",
-            link: "https://github.com/robertlek/console-auto-park",
-            type: "Private"
-        },
-        {
-            name: "Convex Hull",
-            technology: "MATLAB",
-            link: "https://github.com/robertlek/convex-hull",
-            type: "Private"
-        },
-        {
-            name: "Digit Recognition",
-            technology: "Python",
-            link: "https://github.com/robertlek/digit-recognition",
-            type: "Private"
-        },
-        {
-            name: "DVD Library",
-            technology: "PHP, HTML, CSS, MySQL",
-            link: "https://github.com/robertlek/dvd-library",
-            type: "Private"
-        },
-        {
-            name: "Identity Card Manager",
-            technology: "C#, HTML, CSS, JavaScript, SQL Server",
-            link: "https://github.com/robertlek/identity-card-manager",
-            type: "Private"
-        },
-        {
-            name: "Least Squares",
-            technology: "MATLAB",
-            link: "https://github.com/robertlek/least-squares",
-            type: "Private"
-        },
-        {
-            name: "My Pigeons",
-            technology: "C#, SQL Server",
-            link: "https://github.com/robertlek/my-pigeons",
-            type: "Private"
-        },
-        {
-            name: "Online Games Shop",
-            technology: "Java, HTML, CSS, JavaScript, MySQL",
-            link: "https://github.com/robertlek/online-games-shop",
-            type: "Private"
-        },
-        {
-            name: "Online Phone Store",
-            technology: "PHP, HTML, CSS, MariaDB",
-            link: "https://github.com/robertlek/online-phone-store",
-            type: "Private"
-        },
-        {
-            name: "Paleonto-Science",
-            technology: "C#, HTML, CSS, JavaScript, SQL Server, XML",
-            link: "https://github.com/robertlek/paleonto-science",
-            type: "Private"
-        },
-        {
-            name: "Panda Documentary",
-            technology: "HTML, CSS",
-            link: "https://github.com/robertlek/panda-documentary",
-            type: "Private"
-        },
-        {
-            name: "Robert Leca's Personal Website",
-            technology: "HTML, CSS, JavaScript",
-            link: "https://github.com/robertlek/robertlek.github.io",
-            type: "Public"
-        },
-        {
-            name: "US Graph",
-            technology: "C++",
-            link: "https://github.com/robertlek/us-graph",
-            type: "Private"
-        }
-    ]
-
+function showProjects(projects) {
     var html = projects.map(function (project) {
         var repositoryTypeColor = "#d60000";
         if (project.type == "Public") {

@@ -7,7 +7,13 @@ function displayContent() {
             showSkills(skills);
         });
 
-    showProjects();
+    fetch("projects.json")
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (projects) {
+            showProjects(projects);
+        });
 }
 
 function translateToEnglish() {
