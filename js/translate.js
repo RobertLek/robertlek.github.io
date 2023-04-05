@@ -1,3 +1,8 @@
+function displayContent() {
+    showSkills();
+    showProjects();
+}
+
 function translateToEnglish() {
     document.getElementById("text-function-name").innerText = "Software Developer";
     document.getElementById("text-quote").innerText = `# "Why do Java programmers have to wear glasses? Because they don't C#."`;
@@ -61,6 +66,9 @@ function translateToEnglish() {
             <span>Projects</span>
         </h2>
         Below you can find my personal projects.
+        <br />
+        <br />
+        <ul></ul>
     `;
 
     document.getElementById("tab-languages").innerHTML =
@@ -99,7 +107,7 @@ function translateToEnglish() {
         </table>
     `;
 
-    showSkills();
+    displayContent();
 }
 
 function translateToRomanian() {
@@ -167,6 +175,9 @@ function translateToRomanian() {
             <span>Proiecte</span>
         </h2>
         Mai jos, poți regăsi proiectele realizate de mine.
+        <br />
+        <br />
+        <ul></ul>
     `;
 
     document.getElementById("tab-languages").innerHTML =
@@ -205,7 +216,7 @@ function translateToRomanian() {
         </table>
     `;
 
-    showSkills();
+    displayContent();
 }
 
 translateToEnglish();

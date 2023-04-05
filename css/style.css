@@ -248,6 +248,22 @@ body {
     color: gray;
 }
 
+#tab-projects ul li {
+    list-style-type: square;
+    margin-left: 15px;
+}
+
+#tab-projects ul li a {
+    color: #334455;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.technology {
+    color: gray;
+}
+
 #tab-languages table {
     width: 50%;
     border-collapse: collapse;
