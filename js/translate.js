@@ -1,5 +1,12 @@
 function displayContent() {
-    showSkills();
+    fetch('skills.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (skills) {
+            showSkills(skills);
+        });
+
     showProjects();
 }
 

@@ -34,22 +34,7 @@ function displayPage(id) {
     showPage(id);
 }
 
-function showSkills() {
-    var skills = [
-        {
-            name: "HTML",
-            endorcements: 5,
-        },
-        {
-            name: "CSS",
-            endorcements: 10
-        },
-        {
-            name: "JS",
-            endorcements: 15
-        }
-    ]
-
+function showSkills(skills) {
     var html = skills.map(function (skill) {
         return `<li>${skill.name} - <span class="endorcements">${skill.endorcements}</span></li>`;
     });
