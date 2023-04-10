@@ -1,4 +1,17 @@
-var activePage = "tab-home";
+var activePage = "tab-" + window.location.hash.split("#")[1];
+switch (activePage) {
+    case "tab-home":
+        break;
+    case "tab-skills":
+        break;
+    case "tab-projects":
+        break;
+    case "tab-languages":
+        break;
+    default:
+        activePage = "tab-home";
+        break;
+}
 showPage(activePage);
 
 document.querySelector("#top-menu-bar").addEventListener("click", function (e) {

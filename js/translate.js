@@ -17,32 +17,34 @@ function displayContent() {
 }
 
 function $(selector) {
-    return document.querySelector(selector)
+    return document.querySelector(selector);
 }
 
 function setText(selector, text) {
     $(selector).innerText = text;
 }
 
+function renderHTML(selector, html) {
+    $(selector).innerHTML = html;
+}
+
 function translateToEnglish() {
     setText("#text-function-name", "Software Developer");
-    document.getElementById("text-quote").innerText = `# "Why do Java programmers have to wear glasses? Because they don't C#."`;
-    document.getElementById("text-contact-me-label").innerText = "Contact me:";
-    document.getElementById("text-user-email-label").innerText = "Your email address:";
-    document.getElementById("text-user-name-label").innerText = "Your full name:";
-    document.getElementById("text-contact-me-button").innerText = "Contact me!";
-    document.getElementById("text-personal-details-label").innerText = "Personal details:";
-    document.getElementById("text-current-age").innerText = "Current age:";
-    document.getElementById("text-location").innerText = "Location:";
-    document.getElementById("text-phone-number").innerText = "Phone number:";
-    document.getElementById("text-email-address").innerText = "Email address:";
-    document.getElementById("text-home-button").innerText = "Home";
-    document.getElementById("text-skills-button").innerText = "Skills";
-    document.getElementById("text-projects-button").innerText = "Projects";
-    document.getElementById("text-languages-button").innerText = "Languages";
-
-    document.getElementById("tab-home").innerHTML =
-    `
+    setText("#text-quote", `# "Why do Java programmers have to wear glasses? Because they don't C#."`);
+    setText("#text-contact-me-label", "Contact me:");
+    setText("#text-user-email-label", "Your email address:");
+    setText("#text-user-name-label", "Your full name:");
+    setText("#text-contact-me-button", "Contact me!");
+    setText("#text-personal-details-label", "Personal details:");
+    setText("#text-current-age", "Current age:");
+    setText("#text-location", "Location:");
+    setText("#text-phone-number", "Phone number:");
+    setText("#text-email-address", "Email address:");
+    setText("#text-home-button", "Home");
+    setText("#text-skills-button", "Skills");
+    setText("#text-projects-button", "Projects");
+    setText("#text-languages-button", "Languages");
+    renderHTML("#tab-home", `
         <h2>
             <i class="fa-solid fa-house margin-right-md"></i>
             <span>Home</span>
@@ -66,10 +68,8 @@ function translateToEnglish() {
             Outside of the programming world, I like to play video games, watch a good movie, go outside in the nature,
             spend some precious time with my family or practice a healthy activity such as a gym workout.
         </p>
-    `;
-
-    document.getElementById("tab-skills").innerHTML =
-    `
+    `);
+    renderHTML("#tab-skills", `
         <h2>
             <i class="fa-solid fa-gear margin-right-md"></i>
             <span>Skills</span>
@@ -78,10 +78,8 @@ function translateToEnglish() {
         <br />
         <br />
         <ul></ul>
-    `;
-
-    document.getElementById("tab-projects").innerHTML =
-    `
+    `);
+    renderHTML("#tab-projects", `
         <h2>
             <i class="fa-solid fa-briefcase margin-right-md"></i>
             <span>Projects</span>
@@ -105,10 +103,8 @@ function translateToEnglish() {
             <tbody>
             </tbody>
         </table>
-    `;
-
-    document.getElementById("tab-languages").innerHTML =
-    `
+    `);
+    renderHTML("#tab-languages", `
         <h2>
             <i class="fa-solid fa-globe margin-right-md"></i>
             <span>Languages</span>
@@ -135,36 +131,29 @@ function translateToEnglish() {
                     <td>French</td>
                     <td>Elementary proficiency</td>
                 </tr>
-                <tr>
-                    <td>German</td>
-                    <td>Elementary proficiency</td>
-                </tr>
             </tbody>
         </table>
-    `;
-
+    `);
     displayContent();
 }
 
 function translateToRomanian() {
-    document.getElementById("text-function-name").innerText = "Dezvoltator Software";
-    document.getElementById("text-quote").innerText = `# "De ce programatorii Java poartă ochelari? Deoarece ei nu văd precis (C#)."`;
-    document.getElementById("text-contact-me-label").innerText = "Contactează-mă:";
-    document.getElementById("text-user-email-label").innerText = "Adresa ta de email:";
-    document.getElementById("text-user-name-label").innerText = "Numele tău întreg:";
-    document.getElementById("text-contact-me-button").innerText = "Contactează-mă!";
-    document.getElementById("text-personal-details-label").innerText = "Detalii personale:";
-    document.getElementById("text-current-age").innerText = "Vârsta curentă:";
-    document.getElementById("text-location").innerText = "Locație:";
-    document.getElementById("text-phone-number").innerText = "Număr de telefon:";
-    document.getElementById("text-email-address").innerText = "Adresă de email:";
-    document.getElementById("text-home-button").innerText = "Acasă";
-    document.getElementById("text-skills-button").innerText = "Skill-uri";
-    document.getElementById("text-projects-button").innerText = "Proiecte";
-    document.getElementById("text-languages-button").innerText = "Limbi";
-
-    document.getElementById("tab-home").innerHTML =
-    `
+    setText("#text-function-name", "Dezvoltator Software");
+    setText("#text-quote", `# "De ce programatorii Java poartă ochelari? Deoarece ei nu văd precis (C#)."`);
+    setText("#text-contact-me-label", "Contactează-mă:");
+    setText("#text-user-email-label", "Adresa ta de email:");
+    setText("#text-user-name-label", "Numele tău întreg:");
+    setText("#text-contact-me-button", "Contactează-mă!");
+    setText("#text-personal-details-label", "Detalii personale:");
+    setText("#text-current-age", "Vârsta curentă:");
+    setText("#text-location", "Locație:");
+    setText("#text-phone-number", "Număr de telefon:");
+    setText("#text-email-address", "Adresă de email:");
+    setText("#text-home-button", "Acasă");
+    setText("#text-skills-button", "Skill-uri");
+    setText("#text-projects-button", "Proiecte");
+    setText("#text-languages-button", "Limbi");
+    renderHTML("#tab-home", `
         <h2>
             <i class="fa-solid fa-house margin-right-md"></i>
             <span>Acasă</span>
@@ -190,10 +179,8 @@ function translateToRomanian() {
             natură, să petrec timp prețios cu familia mea sau să desfășor o activitate sănătoasă precum un antrenament la
             sală.
         </p>
-    `;
-
-    document.getElementById("tab-skills").innerHTML =
-    `
+    `);
+    renderHTML("#tab-skills", `
         <h2>
             <i class="fa-solid fa-gear margin-right-md"></i>
             <span>Skill-uri</span>
@@ -201,11 +188,9 @@ function translateToRomanian() {
         Mai jos sunt afișate skill-urile mele în diferite limbaje de programare și în diferite tehnologii.
         <br />
         <br />
-        <ul></ul>  
-    `;
-
-    document.getElementById("tab-projects").innerHTML =
-    `
+        <ul></ul>
+    `);
+    renderHTML("#tab-projects", `
         <h2>
             <i class="fa-solid fa-briefcase margin-right-md"></i>
             <span>Proiecte</span>
@@ -229,10 +214,8 @@ function translateToRomanian() {
             <tbody>
             </tbody>
         </table>
-    `;
-
-    document.getElementById("tab-languages").innerHTML =
-    `
+    `);
+    renderHTML("#tab-languages", `
         <h2>
             <i class="fa-solid fa-globe margin-right-md"></i>
             <span>Limbi:</span>
@@ -259,14 +242,9 @@ function translateToRomanian() {
                     <td>Franceză</td>
                     <td>Competență elementară</td>
                 </tr>
-                <tr>
-                    <td>Germană</td>
-                    <td>Competență elementară</td>
-                </tr>
             </tbody>
         </table>
-    `;
-
+    `);
     displayContent();
 }
 
