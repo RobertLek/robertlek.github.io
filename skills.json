@@ -1,19 +1,19 @@
 [
     {
         "name": "HTML",
-        "endorcements": 14
+        "endorcements": 8
     },
     {
         "name": "CSS",
-        "endorcements": 10
+        "endorcements": 8
     },
     {
-        "name": "JS",
-        "endorcements": 3
+        "name": "JavaScript",
+        "endorcements": 5
     },
     {
         "name": "C#",
-        "endorcements": 15
+        "endorcements": 4
     },
     {
         "name": "Python",
@@ -21,18 +21,26 @@
     },
     {
         "name": "Java",
-        "endorcements": 5
+        "endorcements": 2
     },
     {
         "name": "PHP",
-        "endorcements": 7
+        "endorcements": 2
     },
     {
         "name": "C++",
-        "endorcements": 6
+        "endorcements": 2
     },
     {
         "name": "MATLAB",
-        "endorcements": 4
+        "endorcements": 3
+    },
+    {
+        "name": "SQL",
+        "endorcements": 6
+    },
+    {
+        "name": "XML",
+        "endorcements": 2
     }
 ]

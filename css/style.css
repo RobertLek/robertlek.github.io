@@ -28,3 +28,51 @@ body {
 .margin-right-sm {
     margin-right: 2px;
 }
+
+/* Header styling */
+
+#header {
+    background-image: url("/images/header-bg.jpg");
+}
+
+.language-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.language-button-image {
+    border-radius: 100%;
+    border: 1px solid #000000;
+}
+
+#top-menu-bar {
+    text-align: center;
+    background-color: #334455;
+    color: #FFFFFF;
+}
+
+#top-menu-bar button {
+    display: inline-block;
+    color: #D3EAFD;
+    background: none;
+    text-decoration: none;
+    padding: 5px 15px;
+    border: none;
+    margin: 2px 0;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+#top-menu-bar button:hover {
+    background-color: #D3EAFD;
+    color: #334455;
+}
+
+#top-menu-bar .active-button {
+    background-color: #D3EAFD;
+    color: #334455;   
+}
