@@ -44,7 +44,7 @@ function translateToEnglish() {
     setText("#text-skills-button", "Skills");
     setText("#text-projects-button", "Projects");
     setText("#text-languages-button", "Languages");
-    renderHTML("#tab-home", `
+    renderHTML("#home", `
         <h2>
             <i class="fa-solid fa-house margin-right-md"></i>
             <span>Home</span>
@@ -69,7 +69,7 @@ function translateToEnglish() {
             spend some precious time with my family or practice a healthy activity such as a gym workout.
         </p>
     `);
-    renderHTML("#tab-skills", `
+    renderHTML("#skills", `
         <h2>
             <i class="fa-solid fa-gear margin-right-md"></i>
             <span>Skills</span>
@@ -79,7 +79,7 @@ function translateToEnglish() {
         <br />
         <ul></ul>
     `);
-    renderHTML("#tab-projects", `
+    renderHTML("#projects", `
         <h2>
             <i class="fa-solid fa-briefcase margin-right-md"></i>
             <span>Projects</span>
@@ -104,7 +104,7 @@ function translateToEnglish() {
             </tbody>
         </table>
     `);
-    renderHTML("#tab-languages", `
+    renderHTML("#languages", `
         <h2>
             <i class="fa-solid fa-globe margin-right-md"></i>
             <span>Languages</span>
@@ -153,7 +153,7 @@ function translateToRomanian() {
     setText("#text-skills-button", "Skill-uri");
     setText("#text-projects-button", "Proiecte");
     setText("#text-languages-button", "Limbi");
-    renderHTML("#tab-home", `
+    renderHTML("#home", `
         <h2>
             <i class="fa-solid fa-house margin-right-md"></i>
             <span>Acasă</span>
@@ -180,7 +180,7 @@ function translateToRomanian() {
             sală.
         </p>
     `);
-    renderHTML("#tab-skills", `
+    renderHTML("#skills", `
         <h2>
             <i class="fa-solid fa-gear margin-right-md"></i>
             <span>Skill-uri</span>
@@ -190,7 +190,7 @@ function translateToRomanian() {
         <br />
         <ul></ul>
     `);
-    renderHTML("#tab-projects", `
+    renderHTML("#projects", `
         <h2>
             <i class="fa-solid fa-briefcase margin-right-md"></i>
             <span>Proiecte</span>
@@ -215,7 +215,7 @@ function translateToRomanian() {
             </tbody>
         </table>
     `);
-    renderHTML("#tab-languages", `
+    renderHTML("#languages", `
         <h2>
             <i class="fa-solid fa-globe margin-right-md"></i>
             <span>Limbi:</span>

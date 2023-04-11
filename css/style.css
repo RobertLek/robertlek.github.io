@@ -1,6 +1,5 @@
-@import url("/css/responsive/extra-large-screen.css");
-@import url("/css/responsive/large-screen.css");
-@import url("/css/responsive/small-screen.css");
+@import url("/css/responsive/desktop.css");
+@import url("/css/responsive/laptop.css");
 @import url("/css/responsive/tablet.css");
 @import url("/css/responsive/mobile.css");
 
@@ -9,6 +8,7 @@
 html {
     height: 100%;
     font-family: "Roboto", Arial, sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {

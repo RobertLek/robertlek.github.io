@@ -1,4 +1,4 @@
-/* 769px - 1024px (Small screens, laptops) */
+/* 769px - 1024px (Small screens or small laptops) */
 @media only screen and (max-width: 1024px) {
     /* Header styling */
 
@@ -216,7 +216,7 @@
         margin-bottom: 5px;
     }
 
-    #tab-skills ul li {
+    #skills ul li {
         list-style-type: square;
         margin-left: 15px;
         color: #334455;
@@ -242,61 +242,61 @@
         color: #d60000;
     }
 
-    #tab-projects table {
+    #projects table {
         width: 100%;
         border-collapse: collapse;
         max-height: 20%;
     }
 
-    #tab-projects thead {
+    #projects thead {
         background-color: #334455;
         color: #FFFFFF;
     }
 
-    #tab-projects thead td {
+    #projects thead td {
         border: 1px solid #CCCCCC;
         padding: 8px;
         text-align: center;
     }
 
-    #tab-projects tbody td {
+    #projects tbody td {
         border: 1px solid #CCCCCC;
         padding: 4px;
         text-align: center;
     }
 
-    #tab-projects a {
+    #projects a {
         color: #334455;
         font-weight: bold;
         text-decoration: none;
     }
 
-    #tab-projects a:hover {
+    #projects a:hover {
         text-decoration: underline;
         color: #693092;
     }
 
-    #tab-projects tbody tr:nth-child(even) {
+    #projects tbody tr:nth-child(even) {
         background-color: #EEEEEE;
     }
 
-    #tab-languages table {
+    #languages table {
         width: 100%;
         border-collapse: collapse;
     }
 
-    #tab-languages thead {
+    #languages thead {
         background-color: #334455;
         color: #FFFFFF;
     }
 
-    #tab-languages td {
+    #languages td {
         border: 1px solid #CCCCCC;
         padding: 8px;
         text-align: center;
     }
 
-    #tab-languages tbody tr:nth-child(even) {
+    #languages tbody tr:nth-child(even) {
         background-color: #EEEEEE;
     }
 

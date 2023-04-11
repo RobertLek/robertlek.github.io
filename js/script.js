@@ -1,15 +1,15 @@
-var activePage = "tab-" + window.location.hash.split("#")[1];
+var activePage = window.location.hash.split("#")[1];
 switch (activePage) {
-    case "tab-home":
+    case "home":
         break;
-    case "tab-skills":
+    case "skills":
         break;
-    case "tab-projects":
+    case "projects":
         break;
-    case "tab-languages":
+    case "languages":
         break;
     default:
-        activePage = "tab-home";
+        activePage = "home";
         break;
 }
 showPage(activePage);
@@ -58,7 +58,7 @@ function showSkills(skills) {
                 </li>`}`;
     });
 
-    var container = document.querySelector("#tab-skills ul");
+    var container = document.querySelector("#skills ul");
     container.innerHTML = html.join("");
 }
 
@@ -77,6 +77,6 @@ function showProjects(projects) {
         `;
     });
 
-    var container = document.querySelector("#tab-projects table tbody");
+    var container = document.querySelector("#projects table tbody");
     container.innerHTML = html.join("");
 }
