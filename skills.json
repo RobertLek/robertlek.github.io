@@ -1,39 +1,51 @@
 [
     {
-        "name": "HTML",
-        "endorcements": 8
-    },
-    {
-        "name": "CSS",
-        "endorcements": 8
-    },
-    {
-        "name": "JavaScript",
-        "endorcements": 5
-    },
-    {
-        "name": "C#",
-        "endorcements": 4
-    },
-    {
-        "name": "Python",
+        "name": "C",
         "endorcements": 1
-    },
-    {
-        "name": "Java",
-        "endorcements": 2
-    },
-    {
-        "name": "PHP",
-        "endorcements": 2
     },
     {
         "name": "C++",
         "endorcements": 2
     },
     {
+        "name": "C#",
+        "endorcements": 4
+    },
+    {
+        "name": "CSS",
+        "endorcements": 9
+    },
+    {
+        "name": "HTML",
+        "endorcements": 9
+    },
+    {
+        "name": "Java",
+        "endorcements": 2
+    },
+    {
+        "name": "JavaScript",
+        "endorcements": 6
+    },
+    {
         "name": "MATLAB",
         "endorcements": 3
+    },
+    {
+        "name": "Pawn",
+        "endorcements": 1
+    },
+    {
+        "name": "PHP",
+        "endorcements": 2
+    },
+    {
+        "name": "Python",
+        "endorcements": 1
+    },
+    {
+        "name": "TypeScript",
+        "endorcements": 1
     },
     {
         "name": "SQL",

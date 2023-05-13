@@ -96,6 +96,12 @@
         "type": "Public"
     },
     {
+        "name": "Teams Networking React",
+        "technology": "HTML, CSS, JavaScript, TypeScript",
+        "link": "https://github.com/robertlek/teams-networking-react",
+        "type": "Public"
+    },
+    {
         "name": "US Graph",
         "technology": "C++",
         "link": "https://github.com/robertlek/us-graph",
