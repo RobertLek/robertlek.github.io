@@ -346,6 +346,10 @@ li.important .endorcements {
     color: #334455;
 }
 
+#expand-menu {
+    display: none;
+}
+
 /* 769px - 1024px (Small screens or small laptops) */
 @media only screen and (max-width: 1024px) {
     #quote-wrapper {
@@ -427,11 +431,30 @@ li.important .endorcements {
     }
 
     #top-menu-bar li {
-        display: flex;
-        flex-direction: column;
+        display: block;
     }
 
     #projects table {
         font-size: 10px;
+    }
+
+    #expand-menu {
+        display: block;
+        text-align: center;
+        background-color: #334455;
+        color: #ffffff;
+    }
+
+    #expand-menu button {
+        color: #d3eafd;
+        background: none;
+        text-decoration: none;
+        padding: 5px 15px;
+        border: none;
+        margin: 2px 0;
+        cursor: pointer;
+        font-size: 15px;
+        transition: 0.2s;
+        border-radius: 2px;
     }
 }

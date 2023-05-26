@@ -40,6 +40,7 @@ function translateToEnglish() {
     setText("#text-location", "Location:");
     setText("#text-phone-number", "Phone number:");
     setText("#text-email-address", "Email address:");
+    setText("#text-menu-button", "Menu");
     setText("#text-home-button", "Home");
     setText("#text-skills-button", "Skills");
     setText("#text-projects-button", "Projects");
@@ -161,6 +162,7 @@ function translateToRomanian() {
     setText("#text-location", "Locație:");
     setText("#text-phone-number", "Număr de telefon:");
     setText("#text-email-address", "Adresă de email:");
+    setText("#text-menu-button", "Meniu");
     setText("#text-home-button", "Acasă");
     setText("#text-skills-button", "Skill-uri");
     setText("#text-projects-button", "Proiecte");

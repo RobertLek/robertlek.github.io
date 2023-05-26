@@ -1,4 +1,5 @@
 var activePage = window.location.hash.split("#")[1];
+let menuExpanded = false;
 switch (activePage) {
     case "home":
         break;
@@ -14,10 +15,30 @@ switch (activePage) {
 }
 showPage(activePage);
 
+window.addEventListener("resize", () => {
+    if (window.innerWidth > 480) {
+        document.getElementById("top-menu-bar").style.display = "block";
+        menuExpanded = true;
+    } else {
+        document.getElementById("top-menu-bar").style.display = "none";
+        menuExpanded = false;
+    }
+});
+
 document.querySelector("#top-menu-bar").addEventListener("click", function (e) {
     if (e.target.closest("button")) {
         var id = e.target.closest("button").dataset.tab;
         displayPage(id);
+    }
+});
+
+document.getElementById("expand-button").addEventListener("click", () => {
+    if (menuExpanded) {
+        document.getElementById("top-menu-bar").style.display = "none";
+        menuExpanded = false;
+    } else {
+        document.getElementById("top-menu-bar").style.display = "block";
+        menuExpanded = true;
     }
 });
 
