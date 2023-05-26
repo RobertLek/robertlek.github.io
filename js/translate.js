@@ -1,5 +1,5 @@
 function displayContent() {
-    fetch('skills.json')
+    fetch("skills.json")
         .then(function (response) {
             return response.json();
         })
@@ -44,7 +44,9 @@ function translateToEnglish() {
     setText("#text-skills-button", "Skills");
     setText("#text-projects-button", "Projects");
     setText("#text-languages-button", "Languages");
-    renderHTML("#home", `
+    renderHTML(
+        "#home",
+        `
         <h2>
             <i class="fa-solid fa-house margin-right-md"></i>
             <span>Home</span>
@@ -68,8 +70,11 @@ function translateToEnglish() {
             Outside of the programming world, I like to play video games, watch a good movie, go outside in the nature,
             spend some precious time with my family or practice a healthy activity such as a gym workout.
         </p>
-    `);
-    renderHTML("#skills", `
+    `
+    );
+    renderHTML(
+        "#skills",
+        `
         <h2>
             <i class="fa-solid fa-gear margin-right-md"></i>
             <span>Skills</span>
@@ -78,8 +83,11 @@ function translateToEnglish() {
         <br />
         <br />
         <ul></ul>
-    `);
-    renderHTML("#projects", `
+    `
+    );
+    renderHTML(
+        "#projects",
+        `
         <h2>
             <i class="fa-solid fa-briefcase margin-right-md"></i>
             <span>Projects</span>
@@ -103,8 +111,11 @@ function translateToEnglish() {
             <tbody>
             </tbody>
         </table>
-    `);
-    renderHTML("#languages", `
+    `
+    );
+    renderHTML(
+        "#languages",
+        `
         <h2>
             <i class="fa-solid fa-globe margin-right-md"></i>
             <span>Languages</span>
@@ -133,7 +144,8 @@ function translateToEnglish() {
                 </tr>
             </tbody>
         </table>
-    `);
+    `
+    );
     displayContent();
 }
 
@@ -153,7 +165,9 @@ function translateToRomanian() {
     setText("#text-skills-button", "Skill-uri");
     setText("#text-projects-button", "Proiecte");
     setText("#text-languages-button", "Limbi");
-    renderHTML("#home", `
+    renderHTML(
+        "#home",
+        `
         <h2>
             <i class="fa-solid fa-house margin-right-md"></i>
             <span>Acasă</span>
@@ -179,8 +193,11 @@ function translateToRomanian() {
             natură, să petrec timp prețios cu familia mea sau să desfășor o activitate sănătoasă precum un antrenament la
             sală.
         </p>
-    `);
-    renderHTML("#skills", `
+    `
+    );
+    renderHTML(
+        "#skills",
+        `
         <h2>
             <i class="fa-solid fa-gear margin-right-md"></i>
             <span>Skill-uri</span>
@@ -189,8 +206,11 @@ function translateToRomanian() {
         <br />
         <br />
         <ul></ul>
-    `);
-    renderHTML("#projects", `
+    `
+    );
+    renderHTML(
+        "#projects",
+        `
         <h2>
             <i class="fa-solid fa-briefcase margin-right-md"></i>
             <span>Proiecte</span>
@@ -214,8 +234,11 @@ function translateToRomanian() {
             <tbody>
             </tbody>
         </table>
-    `);
-    renderHTML("#languages", `
+    `
+    );
+    renderHTML(
+        "#languages",
+        `
         <h2>
             <i class="fa-solid fa-globe margin-right-md"></i>
             <span>Limbi:</span>
@@ -244,7 +267,8 @@ function translateToRomanian() {
                 </tr>
             </tbody>
         </table>
-    `);
+    `
+    );
     displayContent();
 }
 

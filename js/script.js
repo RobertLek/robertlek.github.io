@@ -54,8 +54,12 @@ function showSkills(skills) {
     var html = skills.map(function (skill) {
         var cls = skill.endorcements > 3 ? "important" : "";
         return `<li class="${cls}">
-                    ${skill.name} ${skill.endorcements < 2 ? "" : `- <span class="endorcements">${skill.endorcements}</span>
-                </li>`}`;
+                    ${skill.name} ${
+            skill.endorcements < 2
+                ? ""
+                : `- <span class="endorcements">${skill.endorcements}</span>
+                </li>`
+        }`;
     });
 
     var container = document.querySelector("#skills ul");

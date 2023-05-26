@@ -41,12 +41,12 @@ body {
 #top-menu-bar {
     text-align: center;
     background-color: #334455;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 #top-menu-bar button {
     display: inline-block;
-    color: #D3EAFD;
+    color: #d3eafd;
     background: none;
     text-decoration: none;
     padding: 5px 15px;
@@ -59,13 +59,13 @@ body {
 }
 
 #top-menu-bar button:hover {
-    background-color: #D3EAFD;
+    background-color: #d3eafd;
     color: #334455;
 }
 
 #top-menu-bar .active-button {
-    background-color: #D3EAFD;
-    color: #334455;   
+    background-color: #d3eafd;
+    color: #334455;
 }
 
 .endorcements {
@@ -120,7 +120,7 @@ body {
 
 #quote-wrapper h2 {
     font-size: 16px;
-    color: #AAAAAA;
+    color: #aaaaaa;
 }
 
 #language-select-wrapper {
@@ -146,7 +146,7 @@ body {
 }
 
 #upper-side-menu {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 2px;
     padding: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -165,25 +165,27 @@ body {
     color: #111111;
 }
 
-#upper-side-menu input[type=email], input[type=text] {
+#upper-side-menu input[type="email"],
+input[type="text"] {
     padding: 10px;
     width: 100%;
     margin: 4px 0 10px 0;
     border-radius: 4px;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #cccccc;
     box-sizing: border-box;
 }
 
-#upper-side-menu input[type=email]:focus, input[type=text]:focus {
-    box-shadow: 0 0 10px #D3EAFD;
+#upper-side-menu input[type="email"]:focus,
+input[type="text"]:focus {
+    box-shadow: 0 0 10px #d3eafd;
     border: 1px solid #334455;
     outline: none;
 }
 
-#upper-side-menu button[type=submit] {
+#upper-side-menu button[type="submit"] {
     width: 100%;
     background-color: #334455;
-    color: #D3EAFD;
+    color: #d3eafd;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -191,12 +193,12 @@ body {
     margin-top: 10px;
 }
 
-#upper-side-menu button[type=submit]:hover {
-    color: #FFFFFF;
+#upper-side-menu button[type="submit"]:hover {
+    color: #ffffff;
 }
 
 #lower-side-menu {
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 2px;
     padding: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -228,7 +230,7 @@ body {
 .display-content {
     display: none;
     flex: 1;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     border-radius: 2px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     padding: 25px;
@@ -270,17 +272,17 @@ li.important .endorcements {
 
 #projects thead {
     background-color: #334455;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 #projects thead td {
-    border: 1px solid #CCCCCC;
+    border: 1px solid #cccccc;
     padding: 8px;
     text-align: center;
 }
 
 #projects tbody td {
-    border: 1px solid #CCCCCC;
+    border: 1px solid #cccccc;
     padding: 4px;
     text-align: center;
 }
@@ -297,7 +299,7 @@ li.important .endorcements {
 }
 
 #projects tbody tr:nth-child(even) {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
 
 #languages table {
@@ -307,17 +309,17 @@ li.important .endorcements {
 
 #languages thead {
     background-color: #334455;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 #languages td {
-    border: 1px solid #CCCCCC;
+    border: 1px solid #cccccc;
     padding: 8px;
     text-align: center;
 }
 
 #languages tbody tr:nth-child(even) {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
 
 #footer {
@@ -331,7 +333,7 @@ li.important .endorcements {
 
 #footer li a {
     display: inline-block;
-    color: #D3EAFD;
+    color: #d3eafd;
     text-decoration: none;
     padding: 8px;
     margin: 2px 0;
@@ -340,7 +342,7 @@ li.important .endorcements {
 }
 
 #footer li a:hover {
-    background-color: #D3EAFD;
+    background-color: #d3eafd;
     color: #334455;
 }
 
