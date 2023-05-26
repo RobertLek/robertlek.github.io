@@ -430,6 +430,10 @@ li.important .endorcements {
         height: 250px;
     }
 
+    #top-menu-bar {
+        display: none;
+    }
+
     #top-menu-bar li {
         display: block;
     }

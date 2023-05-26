@@ -16,12 +16,12 @@ switch (activePage) {
 showPage(activePage);
 
 window.addEventListener("resize", () => {
-    if (window.innerWidth > 480) {
-        document.getElementById("top-menu-bar").style.display = "block";
-        menuExpanded = true;
-    } else {
-        document.getElementById("top-menu-bar").style.display = "none";
-        menuExpanded = false;
+    if (menuExpanded == false) {
+        if (window.innerWidth > 480) {
+            document.getElementById("top-menu-bar").style.display = "block";
+        } else {
+            document.getElementById("top-menu-bar").style.display = "none";
+        }
     }
 });
 
