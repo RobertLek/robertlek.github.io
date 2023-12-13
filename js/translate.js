@@ -54,9 +54,10 @@ function translateToEnglish() {
         </h2>
         <p>Hey there!</p>
         <br />
-        <p>Let me introduce myself! My name is Robert Andrei Leca and I am a 21 years old passionate guy about programming.</p>
-        <p>At this moment, I am student of "Lucian Blaga" University of Sibiu, studying Computer Science for bachelor's degree.</p>
-        <p>Also, I am currently working part-time for Industrial Software SRL as a Junior Web Developer since October 2022.</p>
+        <p>Let me introduce myself! My name is Robert Andrei Leca and I am a 22 years old passionate guy about programming.</p>
+        <p>At this moment, I am student of "Lucian Blaga" University of Sibiu, studying Computer Science for masters's degree.</p>
+        <p>Not too long ago, I finished my studies at the same university for my bachelor's degree.</p>
+        <p>Also, I am currently working full-time for Industrial Software SRL as a Junior Web Developer since October 2022.</p>
         <br />
         <h3>About me:</h3>
         <p>
@@ -176,9 +177,10 @@ function translateToRomanian() {
         </h2>
         <p>Salutare!</p>
         <br />
-        <p>Permite-mi să mă introduc! Numele meu este Leca Robert Andrei și sunt un tânăr de 21 de ani, pasionat de programare.</p>
-        <p>În acest moment, sunt student la Universitatea "Lucian Blaga" din Sibiu, și studiez informatică la nivel de licență.</p>
-        <p>De asemenea, în prezent lucrez part-time pentru Industrial Software SRL ca și Junior Web Developer din octombrie 2022.</p>
+        <p>Permite-mi să mă introduc! Numele meu este Leca Robert Andrei și sunt un tânăr de 22 de ani, pasionat de programare.</p>
+        <p>În acest moment, sunt student la Universitatea "Lucian Blaga" din Sibiu, și studiez informatică la nivel de master.</p>
+        <p>Cu nu foarte mult timp în urmă, am studiat la aceeași facultate și mi-am finalizat studiile la nivel de licență.</p>
+        <p>De asemenea, în prezent lucrez full-time pentru Industrial Software SRL ca și Junior Web Developer din octombrie 2022.</p>
         <br />
         <h3>Despre mine:</h3>
         <p>
