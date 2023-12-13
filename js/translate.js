@@ -85,6 +85,69 @@ function translateToEnglish() {
         <br />
         <br />
         <ul></ul>
+
+        <div style="display: flex; align-items: center">
+            <div id="pie-chart" style="margin-right: 100px">
+            </div>
+            <div style="display: block">
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: forestgreen; height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">C#</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(163, 31, 31); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">HTML</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: lightgray; height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">SQL</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(245, 245, 68); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">JavaScript</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(96, 10, 154); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">CSS</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(35, 91, 193); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">C++</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(53, 22, 168); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">PHP</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(20, 157, 255); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">TypeScript</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(223, 222, 222); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">Pawn</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(235, 175, 63); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">Java</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: blue; height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">Python</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(0, 184, 0); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">C</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: black; height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">XML</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(255, 136, 0); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">MATLAB</span>
+                </div>
+            </div>
+        </div>
     `
     );
     renderHTML(
@@ -210,6 +273,69 @@ function translateToRomanian() {
         <br />
         <br />
         <ul></ul>
+
+        <div style="display: flex; align-items: center">
+            <div id="pie-chart" style="margin-right: 100px">
+            </div>
+            <div style="display: block">
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: forestgreen; height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">C#</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(163, 31, 31); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">HTML</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: lightgray; height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">SQL</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(245, 245, 68); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">JavaScript</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(96, 10, 154); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">CSS</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(35, 91, 193); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">C++</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(53, 22, 168); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">PHP</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(20, 157, 255); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">TypeScript</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(223, 222, 222); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">Pawn</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(235, 175, 63); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">Java</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: blue; height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">Python</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(0, 184, 0); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">C</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: black; height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">XML</span>
+                </div>
+                <div style="display: flex; margin-bottom: 5px">
+                    <div style="background-color: rgb(255, 136, 0); height: 20px; width: 20px"></div>
+                    <span style="margin-left: 5px">MATLAB</span>
+                </div>
+            </div>
+        </div>
     `
     );
     renderHTML(
